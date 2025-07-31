@@ -81,7 +81,7 @@
  }
 
  .custom-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
  }
 
@@ -92,6 +92,19 @@
   font-size: 18px;
   border: 0;
   color: white;
+ }
+
+ .custom-chevron-right{
+  font-weight: 900;
+  font-size: 24px;
+ }
+
+ .custom-card-body-height {
+  height: 170px;
+ }
+
+ .custom-card-text-height {
+  height: 50px;
  }
  /*#endregion common_settings*/
 
