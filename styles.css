@@ -1,0 +1,88 @@
+ /*#region importing fonts*/
+
+ @font-face {
+   font-family: 'lucia-grande';
+   src: url('./fonts/lucida-grande/LucidaGrande.ttf') format('ttf');
+   font-weight: normal;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'lucia-grande';
+   src: url('./fonts/lucida-grande/LucidaGrandeBold.ttf') format('ttf');
+   font-weight: bold;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv';
+   src: url('./fonts/proxima_ssv/proxima_ssv/ProximaNova-Regular.otf') format('otf');
+   font-weight: normal;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Thin.otf') format('otf');
+   font-weight: thin;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Extrabold.otf') format('otf');
+   font-weight: bolder;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Bold.otf') format('otf');
+   font-weight: bold;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv_black';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Black.otf') format('otf');
+   font-weight: normal;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv_alt';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Alt\ Light.otf') format('otf');
+   font-weight: light;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv_alt';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Alt\ Thin.otf') format('otf');
+   font-weight: thin;
+   font-style: normal;
+ }
+
+ @font-face {
+   font-family: 'proxima_ssv_alt';
+   src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf') format('otf');
+   font-weight: bold;
+   font-style: normal;
+ }
+ /*#endregion importing fonts*/
+
+ /*#region common_settings*/
+ body {
+   font-family: 'proxima_ssv', sans-serif;
+ }
+
+ h1 {
+   font-family: 'proxima_ssv', serif;
+ }
+
+ .custom-container {
+  max-width: 1000px;
+  margin: 0 auto;
+ }
+
+ /*#endregion common_settings*/
