@@ -85,4 +85,28 @@
   margin: 0 auto;
  }
 
+ .custom-button-dark{
+  background-color: black;
+  padding: 6px 25px;
+  font-family: 'proxima_ssv', sans-serif;
+  font-size: 18px;
+  border: 0;
+  color: white;
+ }
  /*#endregion common_settings*/
+
+ /*region membership-clubs-societies-segment*/
+
+ .membership-image-button {
+  background-image: url(./images/MembershipBox1.jpg);
+  height: 300px;
+  background-size: cover;
+ }
+
+ .clubs-societies-image-button {
+  background-image: url(./images/ClubsAndSocietiesBox2.jpg);
+  height: 300px;
+  background-size: cover;
+ }
+ 
+ /*endregion membership-clubs-societies-segment*/
