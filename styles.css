@@ -81,6 +81,10 @@
    font-family: 'proxima_ssv', serif;
  }
 
+ .border-radius-0 {
+   border-radius: 0;
+ }
+
  .custom-button-dark {
    background-color: black;
    padding: 6px 25px;
@@ -96,18 +100,27 @@
  }
 
  .custom-card-body-height {
-   height: 140px;
+   height: 150px;
  }
 
  .custom-card-text-height {
    height: 50px;
  }
 
- .border-radius-0 {
-  border-radius: 0;
+ .carousel .carousel-indicators button {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
  }
 
  /*#endregion common_settings*/
+
+ /*#region navbar*/
+ .logo {
+   height: 32px;
+ }
+
+ /*#endregion navbar*/
 
  /*region membership-clubs-societies-segment*/
 
@@ -136,7 +149,28 @@
    background-image: url(./images/VolunteerDemoBox4.jpg);
    height: 300px;
    background-size: cover;
-
  }
 
  /*#endregion student-board-volunteer*/
+
+ /*#region carousel*/
+
+ .custom-captions h1 {
+   font-size: 48px;
+   padding-bottom: 20px;
+ }
+
+ @media only screen and (min-width: 768px) {
+   .custom-captions {
+     padding-top: 150px;
+   }
+
+   .custom-captions h1 {
+     font-size: 64px;
+     padding-bottom: 20px;
+   }
+ }
+
+
+
+ /*#endregion carousel*/
