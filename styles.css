@@ -81,11 +81,6 @@
    font-family: 'proxima_ssv', serif;
  }
 
- .custom-container {
-   max-width: 1200px;
-   margin: 0 auto;
- }
-
  .custom-button-dark {
    background-color: black;
    padding: 6px 25px;
@@ -97,15 +92,15 @@
 
  .custom-chevron-right {
    font-weight: 900;
-   font-size: 24px;
+   font-size: 18px;
  }
 
  .custom-card-body-height {
-   height: 200px;
+   height: 150px;
  }
 
  .custom-card-text-height {
-   height: 95px;
+   height: 50px;
  }
 
  .border-radius-0 {
