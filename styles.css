@@ -120,6 +120,21 @@
    height: 32px;
  }
 
+ .search-bar-and-offcanvas input {
+  border: none;
+  position: relative;
+ }
+ .search-bar-and-offcanvas input:focus { 
+  outline: solid 2px white;
+ }
+  .search-bar-and-offcanvas form {
+    position: relative;
+  }
+  .search-bar-and-offcanvas span .fa-search{
+    position: absolute;
+  }
+
+
  /*#endregion navbar*/
 
  /*region membership-clubs-societies-segment*/
