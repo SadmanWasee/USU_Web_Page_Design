@@ -122,20 +122,19 @@
 .menubar a:hover {
   color: white;
 }
-.menubar 
 /*#endregion menubar*/
 
  /*region membership-clubs-societies-segment*/
- .membership-image-button {
-   background-image: url(./images/MembershipBox1.jpg);
-   height: 300px;
-   background-size: cover;
- }
-
  .clubs-societies-image-button {
    background-image: url(./images/ClubsAndSocietiesBox2.jpg);
    height: 300px;
    background-size: cover;
+ }
+
+ .member-image-button {
+  background-image: url(./images/MembershipBox1.jpg);
+  height: 300px;
+  background-size: cover;
  }
 
  /*endregion membership-clubs-societies-segment*/
