@@ -84,7 +84,9 @@
  .border-radius-0 {
    border-radius: 0;
  }
-
+ a {
+  text-decoration: none;
+ }
  .custom-button-dark {
    background-color: black;
    padding: 6px 25px;
@@ -117,28 +119,32 @@
 
  /*#region navbar*/
  .logo {
-   height: 32px;
+   height: 24px;
  }
 
- .search-bar-and-offcanvas input {
+ .searchbar-and-menubar input {
   border: none;
-  position: relative;
  }
- .search-bar-and-offcanvas input:focus { 
+ .searchbar-and-menubar input:focus { 
   outline: solid 2px white;
  }
-  .search-bar-and-offcanvas form {
-    position: relative;
-  }
-  .search-bar-and-offcanvas span .fa-search{
-    position: absolute;
-  }
-
-
  /*#endregion navbar*/
 
- /*region membership-clubs-societies-segment*/
+/*#region menubar*/  
+.menubar a {
+  color: #c9c8c7;
+}
+.menubar a:hover {
+  color: white;
+}
 
+.menubar hr {
+  border: 1px solid #FFFFFF
+}
+
+/*#endregion menubar*/
+
+ /*region membership-clubs-societies-segment*/
  .membership-image-button {
    background-image: url(./images/MembershipBox1.jpg);
    height: 300px;
@@ -171,17 +177,23 @@
  /*#region carousel*/
 
  .custom-captions h1 {
+   font-family: 'proxima_ssv', sans-serif;
    font-size: 48px;
+   padding-top: 50px;
    padding-bottom: 20px;
  }
 
  @media only screen and (min-width: 768px) {
-   .custom-captions {
-     padding-top: 150px;
+   .custom-captions h1 {
+     padding-top: 50px;
+     padding-bottom: 20px;
    }
+ }
 
+ @media only screen and (min-width: 992px) {
    .custom-captions h1 {
      font-size: 64px;
+     padding-top: 150px;
      padding-bottom: 20px;
    }
  }

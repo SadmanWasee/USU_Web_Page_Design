@@ -17,27 +17,101 @@
   <div class="container-fluid bg-warning">
     <div class="container d-flex justify-content-between pt-3 pb-3">
       <a href="#"><img class="logo" src="./images/usu_logo.png" alt=""></a>
-      <div class="search-bar-and-offcanvas d-flex justify-content-end">
+      <!-- search bar and menubar icon -->
+      <div class="searchbar-and-menubar d-flex justify-content-end">
         <form action="">
-          <div class="position-relative">
+          <div class="me-1 d-none d-sm-block position-relative">
             <i class="fas fa-search position-absolute z-2 end-0 pt-1"></i>
             <input type="text" class="bg-transparent">
           </div>
         </form>
+        <button class="menubar-button bg-transparent border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsable-menubar" aria-expanded="false" aria-controls="collapseExample">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </div>
   </div>
+  <div class="collapse bg-black" id="collapsable-menubar">
+    <div class="menubar container">
+      <div class="row ps-3 ps-md-5 pt-5 pb-5">
+        <div class="col-6 col-md-4 col-lg-3">
+          <h5 class="text-white">About Us</h5>
+          <a href="#" class="d-block">Our Student Board</a>
+          <a href="#" class="d-block">Sustainability</a>
+          <a href="#" class="d-block">Jobs & Opportunities</a>
+          <a href="#" class="d-block">Alumni & Friends</a>
+          <a href="#" class="d-block">Contact Us</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <h5 class="text-white">Memebership</h5>
+          <a href="#" class="d-block">Join/Renew</a>
+          <a href="#" class="d-block">Rewards Offers</a>
+          <a href="#" class="d-block">Membership Help</a>
+          <a href="#" class="d-block">USU App</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <h5 class="text-white pt-4 pt-md-0">What's On</h5>
+          <a href="#" class="d-block">Event Calendar</a>
+          <a href="#" class="d-block">Key Events</a>
+          <a href="#" class="d-block">Manning Bar</a>
+          <a href="#" class="d-block">Hermann's Bar</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <h5 class="text-white pt-4 pt-md-0">Clubs & Societies</h5>
+          <a href="#" class="d-block">Clubs & Societies A-Z</a>
+          <a href="#" class="d-block">Start a club</a>
+          <a href="#" class="d-block">Event Submission</a>
+          <a href="#" class="d-block">Venue & Equipment Hire</a>
+          <a href="#" class="d-block">Clubs Portal</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 pt-5 pt-lg-5">
+          <h5 class="text-white">Get Involved</h5>
+          <a href="#" class="d-block">Student Board Elections</a>
+          <a href="#" class="d-block">Volunteers</a>
+          <a href="#" class="d-block">INCUBATE</a>
+          <a href="#" class="d-block">Revues</a>
+          <a href="#" class="d-block">Debates</a>
+          <a href="#" class="d-block">Palladian Cup</a>
+          <a href="#" class="d-block">USU Creative Awards</a>
+          <a href="#" class="d-block">USU Markets</a>
+          <a href="#" class="d-block">Hermes</a>
+          <a href="#" class="d-block">Language Exchnage</a>
+          <a href="#" class="d-block">Student Publications</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 pt-5 pt-lg-5">
+          <h5 class="text-white">Uni Life</h5>
+          <a href="#" class="d-block">International Students</a>
+          <a href="#" class="d-block">Student Employment</a>
+          <a href="#" class="d-block">Student Spaces</a>
+          <a href="#" class="d-block">Verge Gallery</a>
+          <a href="#" class="d-block">WeChat</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 pt-5 pt-lg-5">
+          <h5 class="text-white">Shop</h5>
+          <a href="#" class="d-block">USYD Store</a>
+          <a href="#" class="d-block">Graduation Hire</a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 pt-5 pt-lg-5">
+          <h5 class="text-white">Food & Drink</h5>
+          <hr>
+          <a class="d-inline-block pe-lg-1" href="#"><i class="fs-5 fa-brands fa-instagram"></i></a>
+          <a class="d-inline-block pe-lg-1" href="#"><i class="fs-5 fa-brands fa-square-facebook"></i></a>
+          <a class="d-inline-block pe-lg-1" href="#"><i class="fs-5 fa-brands fa-twitter"></i></a>
+          <a class="d-inline-block pe-lg-1" href="#"><i class="fs-5 fa-solid fa-comments"></i></a>
+          <a class="d-inline-block" href="#"><i class="fs-5 fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div id="usu-carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#usu-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#usu-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#usu-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
