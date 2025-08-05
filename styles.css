@@ -5,76 +5,90 @@
    font-weight: normal;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'lucia-grande';
    src: url('./fonts/lucida-grande/LucidaGrandeBold.ttf') format('ttf');
    font-weight: bold;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv';
    src: url('./fonts/proxima_ssv/proxima_ssv/ProximaNova-Regular.otf') format('otf');
    font-weight: normal;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Thin.otf') format('otf');
    font-weight: thin;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Extrabold.otf') format('otf');
    font-weight: bolder;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Bold.otf') format('otf');
    font-weight: bold;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv_black';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Black.otf') format('otf');
    font-weight: normal;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv_alt';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Alt\ Light.otf') format('otf');
    font-weight: light;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv_alt';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Alt\ Thin.otf') format('otf');
    font-weight: thin;
    font-style: normal;
  }
+
  @font-face {
    font-family: 'proxima_ssv_alt';
    src: url('./fonts/proxima_ssv/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf') format('otf');
    font-weight: bold;
    font-style: normal;
  }
+
  /*#endregion importing fonts*/
 
  /*#region common_settings*/
  body {
    font-family: 'proxima_ssv', sans-serif;
  }
+
  h1 {
    font-family: 'proxima_ssv', serif;
  }
+
  .border-radius-0 {
    border-radius: 0;
  }
+
  a {
-  text-decoration: none;
-  color: white;
+   text-decoration: none;
+   color: white;
  }
+
  .custom-button-dark {
    background-color: black;
    padding: 6px 25px;
@@ -83,46 +97,59 @@
    border: 0;
    color: white;
  }
+
  .custom-chevron-right {
    font-weight: 900;
    font-size: 18px;
  }
+
  .custom-card-body-height {
    height: 150px;
  }
+
  .custom-card-text-height {
    height: 50px;
  }
+
  .carousel .carousel-indicators button {
    width: 10px;
    height: 10px;
    border-radius: 100%;
  }
  hr {
-  border: 1px solid #FFFFFF
-}
+   border: 1px solid #FFFFFF
+ }
+ .custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+ }
  /*#endregion common_settings*/
 
  /*#region navbar*/
  .logo {
    height: 24px;
  }
+
  .searchbar-and-menubar input {
-  border: none;
+   border: none;
  }
- .searchbar-and-menubar input:focus { 
-  outline: solid 2px white;
+
+ .searchbar-and-menubar input:focus {
+   outline: solid 2px white;
  }
+
  /*#endregion navbar*/
 
-/*#region menubar*/  
-.menubar a {
-  color: #c9c8c7;
-}
-.menubar a:hover {
-  color: white;
-}
-/*#endregion menubar*/
+ /*#region menubar*/
+ .menubar a {
+   color: #c9c8c7;
+ }
+
+ .menubar a:hover {
+   color: white;
+ }
+
+ /*#endregion menubar*/
 
  /*#region membership-clubs-societies-segment*/
  .clubs-societies-image-button {
@@ -132,10 +159,11 @@
  }
 
  .member-image-button {
-  background-image: url(./images/MembershipBox1.jpg);
-  height: 300px;
-  background-size: cover;
+   background-image: url(./images/MembershipBox1.jpg);
+   height: 300px;
+   background-size: cover;
  }
+
  /*#endregion membership-clubs-societies-segment*/
 
  /*#region student-board-volunteer*/
@@ -175,4 +203,5 @@
      padding-bottom: 20px;
    }
  }
+
  /*#endregion carousel*/
