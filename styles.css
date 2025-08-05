@@ -123,6 +123,9 @@
   max-width: 1200px;
   margin: 0 auto;
  }
+ .custom-font-size-10 {
+  font-size: 10px;
+ }
  /*#endregion common_settings*/
 
  /*#region navbar*/
