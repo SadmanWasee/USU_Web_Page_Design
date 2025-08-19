@@ -68,27 +68,22 @@
    font-weight: bold;
    font-style: normal;
  }
-
  /*#endregion importing fonts*/
 
  /*#region common_settings*/
  body {
    font-family: 'proxima_ssv', sans-serif;
  }
-
  h1 {
    font-family: 'proxima_ssv', serif;
  }
-
  .border-radius-0 {
    border-radius: 0;
  }
-
  a {
    text-decoration: none;
    color: white;
  }
-
  .custom-button-dark {
    background-color: black;
    padding: 6px 25px;
@@ -97,20 +92,10 @@
    border: 0;
    color: white;
  }
-
  .custom-chevron-right {
    font-weight: 900;
    font-size: 18px;
  }
-
- .custom-card-body-height {
-   height: 150px;
- }
-
- .custom-card-text-height {
-   height: 50px;
- }
-
  .carousel .carousel-indicators button {
    width: 10px;
    height: 10px;
@@ -126,20 +111,55 @@
  .custom-font-size-10 {
   font-size: 10px;
  }
+
+ .custom-font-size-16 {
+  font-size: 16px;
+ }
+ .custom-card-body {
+  position: relative;
+  padding: 15px;
+  height: 115px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .custom-card-img-top {
+  width: 100%;
+ }
+ .custom-chevron-right {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+ }
+ .custom-card-text {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+ }
+ .custom-bg-warning {
+  background-color: #fce200;
+ }
+ @media only screen and (min-width: 992px) {
+   .custom-card-body {
+     height: 140px;
+   }
+ }
  /*#endregion common_settings*/
 
  /*#region navbar*/
  .logo {
    height: 24px;
  }
-
- .searchbar-and-menubar input {
-   border: none;
+ .search_input {
+   border: 0;
+   display: none;
  }
-
- .searchbar-and-menubar input:focus {
+ .search_input:focus {
    outline: solid 2px white;
  }
+ .search-button {
+  border: 0;
+ }
+ .menubar-button-close {
+  display: none;
+ } 
 
  /*#endregion navbar*/
 
@@ -166,8 +186,14 @@
    height: 300px;
    background-size: cover;
  }
-
  /*#endregion membership-clubs-societies-segment*/
+
+ /*#region usu 2019 highlights*/
+ .usu-highligts-2019 {
+  width: 100%;
+  aspect-ratio: 16/9;
+ }
+ /*#endregion usu 2019 highlights*/
 
  /*#region student-board-volunteer*/
  .student-board-image {
@@ -187,19 +213,26 @@
  /*#region carousel*/
  .custom-captions h1 {
    font-family: 'proxima_ssv', sans-serif;
-   font-size: 38px;
-   padding-top: 50px;
+   font-size: 24px;
+   padding-top: 130px;
    padding-bottom: 20px;
  }
 
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 576px) {
    .custom-captions h1 {
-     padding-top: 50px;
+     padding-top: 70px;
      padding-bottom: 20px;
    }
  }
 
  @media only screen and (min-width: 992px) {
+   .custom-captions h1 {
+     font-size: 54px;
+     padding-top: 80px;
+     padding-bottom: 20px;
+   }
+ }
+  @media only screen and (min-width: 1200px) {
    .custom-captions h1 {
      font-size: 64px;
      padding-top: 150px;
